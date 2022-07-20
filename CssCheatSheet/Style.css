@@ -1,0 +1,179 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+
+body {
+    background-color: #f4f4f4;
+    color: #555555;
+    margin: 0;
+}
+
+p {
+    font: normal 16px Arial,sans-serif;
+    line-height: 1.6em;
+}
+
+a {
+    text-decoration: none;
+    color:#333;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+    color: green;
+}
+
+a:visited {
+   
+}
+
+.button {
+
+    padding: 5px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    
+}
+
+.button:hover {
+ background-color: green;
+ color: #fff;
+}
+
+.clr{
+   clear: both;
+}
+
+.container {
+
+    width: 70%;
+    margin: auto;
+    
+}
+
+
+.box-1 {
+    background-color: #333;
+    color: #fff;
+    border: solid 5px yellow ;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin: 20px 0;
+}
+
+.box-1 h1 {
+
+    font-family:Tahoma ;
+    font-weight:800 ;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: .3em;
+    text-align: center;
+
+}
+
+.box-2 {
+    border: 5px solid #ccc;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.box-2 h1{
+    text-align: center;
+}
+
+.category {
+    border:#333 dotted 2px;
+    padding:20px ;
+    margin: 20px 0;
+    border-radius: 15px;
+}
+
+.category h2 {
+    text-align: center;
+}
+
+.category ul{
+    padding:0;
+    list-style: square;
+    list-style: none;
+}
+
+.category li {
+    padding-bottom: 6px;
+    border-bottom: 1px dotted ;
+}
+
+.my-form {
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 10px;
+}
+
+.my-form label {
+    display: block;
+}
+
+.my-form input[type='text'], .my-form textarea {
+    padding: 8px;
+    width: 100%;
+}
+
+.block {
+    float:left;
+    width: 33.3%;
+    border: 1px #333 solid;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+#main-block {
+  float: left;
+  width: 70%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+
+#sidebar{
+   float: right;
+   width: 30%;
+   background-color: #333;
+   color: #fff;
+   box-sizing: border-box;
+   padding: 15px;
+  
+}
+
+.p-box {
+
+  height:500px;
+  width: 800px;
+  border: 2px solid #333;
+  margin-top:30px;
+  position: relative;
+}
+
+.p-box h1{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.p-box h2{
+
+  position : absolute;
+  bottom: 40px;
+  right: 100px;
+}
